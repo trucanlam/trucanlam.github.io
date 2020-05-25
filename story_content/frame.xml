@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="npnxabnsnfns00000000001" textdirection="ltr" device="false" fontscale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" outputtype="undefined" theme="classic">
+<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="npnxnanbnsnfns00000000001" textdirection="ltr" device="false" fontscale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" outputtype="undefined" theme="classic">
   <layouts>
-    <layout name="npnxnanbsnfns00000000001" font="Open Sans" controllayout="npnxnanbsnfns00000000001" colorscheme="npnxabnsnfns00000000001" string_table="npnxabnsnfns00000000001" />
-    <layout name="pxabnsnfns00000000001" font="Open Sans" controllayout="pxabnsnfns00000000001" colorscheme="npnxabnsnfns00000000001" string_table="npnxabnsnfns00000000001" />
-    <layout name="npxnabnsnfns00000000001" font="Open Sans" controllayout="npxnabnsnfns00000000001" colorscheme="npnxabnsnfns00000000001" string_table="npnxabnsnfns00000000001" />
-    <layout name="npnxnanbnsnfns00000000001" font="Open Sans" controllayout="npnxnanbnsnfns00000000001" colorscheme="npnxabnsnfns00000000001" string_table="npnxabnsnfns00000000001" />
-    <layout name="pxabnsnfns00000000000" font="Open Sans" controllayout="pxabnsnfns00000000000" colorscheme="npnxabnsnfns00000000001" string_table="npnxabnsnfns00000000001" />
-    <layout name="npnxabnsnfns00000000001" font="Open Sans" controllayout="npnxabnsnfns00000000001" colorscheme="npnxabnsnfns00000000001" string_table="npnxabnsnfns00000000001" />
+    <layout name="npnxnanbsnfns00000000001" font="Open Sans" controllayout="npnxnanbsnfns00000000001" colorscheme="npnxnanbnsnfns00000000001" string_table="npnxnanbnsnfns00000000001" />
+    <layout name="pxabnsnfns00000000001" font="Open Sans" controllayout="pxabnsnfns00000000001" colorscheme="npnxnanbnsnfns00000000001" string_table="npnxnanbnsnfns00000000001" />
+    <layout name="npxnabnsnfns00000000001" font="Open Sans" controllayout="npxnabnsnfns00000000001" colorscheme="npnxnanbnsnfns00000000001" string_table="npnxnanbnsnfns00000000001" />
+    <layout name="npnxnanbnsnfns00000000001" font="Open Sans" controllayout="npnxnanbnsnfns00000000001" colorscheme="npnxnanbnsnfns00000000001" string_table="npnxnanbnsnfns00000000001" />
+    <layout name="pxabnsnfns00000000000" font="Open Sans" controllayout="pxabnsnfns00000000000" colorscheme="npnxnanbnsnfns00000000001" string_table="npnxnanbnsnfns00000000001" />
   </layouts>
   <control_options>
     <optiongroups>
@@ -76,7 +75,7 @@
       </optiongroup>
       <optiongroup name="bottombaroptions">
         <options>
-          <option name="bottombar_enabled" value="true" />
+          <option name="bottombar_enabled" value="false" />
         </options>
       </optiongroup>
     </optiongroups>
@@ -197,32 +196,9 @@
       </control>
       <control name="close_btn" enabled="false" />
     </control_layout>
-    <control_layout name="npnxabnsnfns00000000001">
-      <control name="volume" enabled="false" />
-      <control name="seekbar" enabled="false" />
-      <control name="replay" enabled="false" />
-      <control name="pauseplay" enabled="false" />
-      <control name="logo" enabled="false" />
-      <control name="previous" enabled="false" />
-      <control name="next" enabled="false" />
-      <control name="swipeleft" enabled="true" />
-      <control name="swiperight" enabled="true" />
-      <control name="submit" enabled="false" />
-      <control name="finish" enabled="false" />
-      <control name="submitall" enabled="false" />
-      <control name="resources" enabled="false" />
-      <control name="glossary" enabled="false" />
-      <control name="transcript" enabled="false" />
-      <control name="outline" enabled="false">
-        <controls>
-          <control name="search" enabled="false" />
-        </controls>
-      </control>
-      <control name="close_btn" enabled="true" />
-    </control_layout>
   </control_layouts>
   <colorschemes>
-    <colorscheme name="npnxabnsnfns00000000001">
+    <colorscheme name="npnxnanbnsnfns00000000001">
       <color_group name="infopanel">
         <group_colors>
           <color name="link_text">
@@ -1139,7 +1115,7 @@
     </colorscheme>
   </colorschemes>
   <string_tables>
-    <string_table name="npnxabnsnfns00000000001">
+    <string_table name="npnxnanbnsnfns00000000001">
       <string id="acc_active">active</string>
       <string id="check_include">Check to include</string>
       <string id="clear">Clear and return to menu</string>
@@ -1239,19 +1215,22 @@
             <slidelink slideid="_player.5a3bBYXPU3z.6nOa1M6DoKs" displaytext="Dimensions" expand="false" type="slide" />
           </links>
         </slidelink>
-        <slidelink slideid="_player.6IKy86Btv4C" displaytext="Architectural" expand="true" type="slide">
+        <slidelink slideid="_player.6cscuhQ6pyR" displaytext="Real-time" expand="true" type="slide">
           <links>
-            <slidelink slideid="_player.6IKy86Btv4C.5c6Jhwpte82" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.6cscuhQ6pyR.6n89lpvRtu2" displaytext="T34" expand="false" type="slide" />
+            <slidelink slideid="_player.6cscuhQ6pyR.6hEhLMr4n2p" displaytext="Cromwell" expand="false" type="slide" />
+            <slidelink slideid="_player.6cscuhQ6pyR.5ktYXEHYP7V" displaytext="T34inField" expand="false" type="slide" />
+            <slidelink slideid="_player.6cscuhQ6pyR.5ouvzBfHu6r" displaytext="T34InStudio" expand="false" type="slide" />
+            <slidelink slideid="_player.6cscuhQ6pyR.6ckrhOCAbPa" displaytext="RiversideView" expand="false" type="slide" />
+            <slidelink slideid="_player.6cscuhQ6pyR.6YzXMxpChxh" displaytext="LargeLandScape" expand="false" type="slide" />
           </links>
         </slidelink>
-        <slidelink slideid="_player.5sPtEqWkxNK" displaytext="Tech" expand="true" type="slide">
+        <slidelink slideid="_player.6UCpYDTjeH9" displaytext="Architecture" expand="true" type="slide">
           <links>
-            <slidelink slideid="_player.5sPtEqWkxNK.6MKT4mrYskm" displaytext="Untitled Slide" expand="false" type="slide" />
-          </links>
-        </slidelink>
-        <slidelink slideid="_player.644fIwgRhMR" displaytext="Real-time" expand="true" type="slide">
-          <links>
-            <slidelink slideid="_player.644fIwgRhMR.6K2wRtYZwcv" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.6UCpYDTjeH9.5Yd5ZSki7Mv" displaytext="Harrods" expand="false" type="slide" />
+            <slidelink slideid="_player.6UCpYDTjeH9.5e7Ozacqz27" displaytext="ShoppingCentre" expand="false" type="slide" />
+            <slidelink slideid="_player.6UCpYDTjeH9.61AViFmQ5qd" displaytext="TempleQuay" expand="false" type="slide" />
+            <slidelink slideid="_player.6UCpYDTjeH9.6Pxxe0gD33M" displaytext="CollegeHall" expand="false" type="slide" />
           </links>
         </slidelink>
       </links>
