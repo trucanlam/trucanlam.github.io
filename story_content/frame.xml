@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="npnxnanbnsnfns00000000001" textdirection="ltr" device="false" fontscale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" outputtype="undefined" theme="classic">
+<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="npnxnabnsnfns00000000001" textdirection="ltr" device="false" fontscale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" outputtype="undefined" theme="classic">
   <layouts>
-    <layout name="npnxnanbsnfns00000000001" font="Open Sans" controllayout="npnxnanbsnfns00000000001" colorscheme="npnxnanbnsnfns00000000001" string_table="npnxnanbnsnfns00000000001" />
-    <layout name="pxabnsnfns00000000001" font="Open Sans" controllayout="pxabnsnfns00000000001" colorscheme="npnxnanbnsnfns00000000001" string_table="npnxnanbnsnfns00000000001" />
-    <layout name="npxnabnsnfns00000000001" font="Open Sans" controllayout="npxnabnsnfns00000000001" colorscheme="npnxnanbnsnfns00000000001" string_table="npnxnanbnsnfns00000000001" />
-    <layout name="npnxnanbnsnfns00000000001" font="Open Sans" controllayout="npnxnanbnsnfns00000000001" colorscheme="npnxnanbnsnfns00000000001" string_table="npnxnanbnsnfns00000000001" />
-    <layout name="pxabnsnfns00000000000" font="Open Sans" controllayout="pxabnsnfns00000000000" colorscheme="npnxnanbnsnfns00000000001" string_table="npnxnanbnsnfns00000000001" />
+    <layout name="npnxnanbsnfns00000000001" font="Open Sans" controllayout="npnxnanbsnfns00000000001" colorscheme="npnxnabnsnfns00000000001" string_table="npnxnabnsnfns00000000001" />
+    <layout name="pxabnsnfns00000000001" font="Open Sans" controllayout="pxabnsnfns00000000001" colorscheme="npnxnabnsnfns00000000001" string_table="npnxnabnsnfns00000000001" />
+    <layout name="npxnabnsnfns00000000001" font="Open Sans" controllayout="npxnabnsnfns00000000001" colorscheme="npnxnabnsnfns00000000001" string_table="npnxnabnsnfns00000000001" />
+    <layout name="npnxnanbnsnfns00000000001" font="Open Sans" controllayout="npnxnanbnsnfns00000000001" colorscheme="npnxnabnsnfns00000000001" string_table="npnxnabnsnfns00000000001" />
+    <layout name="pxabnsnfns00000000000" font="Open Sans" controllayout="pxabnsnfns00000000000" colorscheme="npnxnabnsnfns00000000001" string_table="npnxnabnsnfns00000000001" />
+    <layout name="npnxnabnsnfns00000000001" font="Open Sans" controllayout="npnxnabnsnfns00000000001" colorscheme="npnxnabnsnfns00000000001" string_table="npnxnabnsnfns00000000001" />
+    <layout name="npnxabnsnfns00000000001" font="Open Sans" controllayout="npnxabnsnfns00000000001" colorscheme="npnxnabnsnfns00000000001" string_table="npnxnabnsnfns00000000001" />
+    <layout name="npnxanbnsnfns00000000001" font="Open Sans" controllayout="npnxanbnsnfns00000000001" colorscheme="npnxnabnsnfns00000000001" string_table="npnxnabnsnfns00000000001" />
   </layouts>
   <control_options>
     <optiongroups>
@@ -196,9 +199,78 @@
       </control>
       <control name="close_btn" enabled="false" />
     </control_layout>
+    <control_layout name="npnxnabnsnfns00000000001">
+      <control name="volume" enabled="false" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="false">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="npnxabnsnfns00000000001">
+      <control name="volume" enabled="false" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="true" />
+      <control name="swiperight" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="false">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="npnxanbnsnfns00000000001">
+      <control name="volume" enabled="false" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="true" />
+      <control name="swiperight" enabled="false" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="false">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
   </control_layouts>
   <colorschemes>
-    <colorscheme name="npnxnanbnsnfns00000000001">
+    <colorscheme name="npnxnabnsnfns00000000001">
       <color_group name="infopanel">
         <group_colors>
           <color name="link_text">
@@ -1115,7 +1187,7 @@
     </colorscheme>
   </colorschemes>
   <string_tables>
-    <string_table name="npnxnanbnsnfns00000000001">
+    <string_table name="npnxnabnsnfns00000000001">
       <string id="acc_active">active</string>
       <string id="check_include">Check to include</string>
       <string id="clear">Clear and return to menu</string>
@@ -1176,14 +1248,10 @@
   <nav_data>
     <outline>
       <links>
-        <slidelink slideid="_player.5jZWKJuw944" displaytext="Main Page" expand="true" type="slide">
-          <links>
-            <slidelink slideid="_player.5jZWKJuw944.5eelClIIUeu" displaytext="Intro" expand="false" type="slide" />
-          </links>
-        </slidelink>
         <slidelink slideid="_player.5uAcSerzDNe" displaytext="3D_Art" expand="true" type="slide">
           <links>
             <slidelink slideid="_player.5uAcSerzDNe.61KG4JZ1bYk" displaytext="Start Page" expand="false" type="slide" />
+            <slidelink slideid="_player.5uAcSerzDNe.5WmHMDl76Pn" displaytext="Frozen AC" expand="false" type="slide" />
             <slidelink slideid="_player.5uAcSerzDNe.6S9LL8lmevh" displaytext="AC in storm" expand="false" type="slide" />
             <slidelink slideid="_player.5uAcSerzDNe.6jwEY8LEJkr" displaytext="Cockpit Image" expand="false" type="slide" />
             <slidelink slideid="_player.5uAcSerzDNe.6EDCZsa859U" displaytext="EPDGS" expand="false" type="slide" />
@@ -1215,7 +1283,7 @@
             <slidelink slideid="_player.5a3bBYXPU3z.6nOa1M6DoKs" displaytext="Dimensions" expand="false" type="slide" />
           </links>
         </slidelink>
-        <slidelink slideid="_player.6cscuhQ6pyR" displaytext="Real-time" expand="true" type="slide">
+        <slidelink slideid="_player.6cscuhQ6pyR" displaytext="Real-time Engine" expand="true" type="slide">
           <links>
             <slidelink slideid="_player.6cscuhQ6pyR.6n89lpvRtu2" displaytext="T34" expand="false" type="slide" />
             <slidelink slideid="_player.6cscuhQ6pyR.6hEhLMr4n2p" displaytext="Cromwell" expand="false" type="slide" />
